@@ -100,3 +100,6 @@ function is_subtree(root, root_r) {
 
 is_subtree(root, root_r); // => true
 
+/*The running time of this algorithm is linear, or O(n), because for both trees, 
+it only traverses them each exactly two times which is constant. Then to check if a substring is contained 
+within another string, a linear time algorithm can be used for this as well, such as the KMP algorithm or others.*/
